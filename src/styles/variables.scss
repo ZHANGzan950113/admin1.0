@@ -1,0 +1,9 @@
+$color: red;
+
+$sideBarWidth: 210px;
+
+// scss变量导出
+:export {
+  color:$color;
+  sideBarWidth:$sideBarWidth
+}

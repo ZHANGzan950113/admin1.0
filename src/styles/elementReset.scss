@@ -1,0 +1,62 @@
+// element 样式修改
+
+// 登录页 .layout_1
+.el-form.layout_1 .el-input .el-input__inner {
+  border-radius: 0;
+  border: none;
+  background-color: rgba(255,255,255, 0.1);
+  color: #fff;
+  &::placeholder {
+    color: #666666;
+  }
+  // :-moz-placeholder {
+  //   color: red;
+  // }
+  // ::-moz-placeholder {
+  //   color: red;
+  // }
+  // :-ms-input-placeholder {
+  //   color: red;
+  // }
+  // ::-webkit-input-placeholder {
+  //   color: red;
+  // }
+  &:focus {
+    // border-color: #409EFF;
+    outline: 0;
+  }
+}
+.el-form.layout_1 {
+  .el-form-item {
+    .el-form-item__error {
+      color: rgb(241, 235, 235);
+    }
+  }
+}
+.el-form.input_type_1 .el-input .el-input-group__append, .el-input-group__prepend {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  transition: background 0.3s, border 0.3s;
+  background: none;
+  padding-right: 0;
+  padding-left: 0;
+  &:focus {
+    border-color: #409EFF;
+    outline: 0;
+  }
+}
+
+.el-form.input_type_1 .el-input.readonly .el-input__inner {
+  border: none;
+}
+
+// .el-form {
+//   .tip { 
+//     line-height:1;
+//     padding: 6px 0;
+//     color: #e7e7e7;
+//     font-size: 14px;
+//     white-space: nowrap;
+//   }
+// }
